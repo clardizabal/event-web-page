@@ -52,7 +52,7 @@ table {
   ========================================
 */
 body {
-	background: #293f50;
+	background: #262626;
 	color: #888;
 	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -329,6 +329,12 @@ p a {
 }
 .teaser a:hover h3 {
 	color: #a9b2b9;
+}
+.teaser img {
+	border-radius: 5px;
+	display: block;
+	margin-bottom: 22px;
+	max-width: 100%;
 }
 
 /*
