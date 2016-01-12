@@ -57,68 +57,6 @@ body {
 	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3, h4 {
-	color: #648880;
-}
-
-h1 {
-	font-size: 36px;
-	line-height: 44px;
-}
-h2 {
-	font-size: 24px;
-	line-height: 21px;
-}
-h3 {
-	font-size: 21px;
-}
-h4 {
-	font-size: 18px;
-}
-
-h5 {
-	color: #a9b2b9;
-	font-size: 14px;
-	font-weight: 400;
-	text-transform: uppercase;
-}
-
-strong {
-	font-weight: 400;
-}
-cite, em {
-	font-style: italic;
-}
-
-.tagline {
-	margin: 66px 0 22px 0;
-	text-align: right;
-}
-
-.primary-nav {
-	font-size: 14px;
-	font-weight: 400;
-	letter-spacing: .5px;
-	text-transform: uppercase;
-}
-
-/*
-  ========================================
-  Links
-  ========================================
-*/
-
-a {
-	color: #648880;
-	text-decoration: none;
-}
-a:hover {
-	color: #a9b2b9;
-}
-p a {
-	border-bottom: 1px solid #dfe2e5;
-}
-
 /*
   ========================================
   Grid
@@ -207,11 +145,82 @@ p a {
   Typography
   ========================================
 */
+h1, h2, h3, h4 {
+	color: #648880;
+}
 
 h1, h3, h4, h5, p {
   margin-bottom: 22px
 } 
 
+h1 {
+	font-size: 36px;
+	line-height: 44px;
+}
+h2 {
+	font-size: 24px;
+	line-height: 44px;
+}
+h3 {
+	font-size: 21px;
+}
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	color: #a9b2b9;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+strong {
+	font-weight: 400;
+}
+cite, em {
+	font-style: italic;
+}
+
+
+/*
+  ========================================
+  Leads
+  ========================================
+*/
+
+.lead {
+	text-align: center;
+}
+.lead p {
+	font-size: 21px;
+	line-height: 33px;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a {
+	color: #648880;
+	text-decoration: none;
+}
+a:hover {
+	color: #a9b2b9;
+}
+p a {
+	border-bottom: 1px solid #dfe2e5;
+}
+.primary-header a,
+.primary-footer a {
+	color: #fff;
+}
+.primary-header a:hover,
+.primary-hooter a:hover {
+	color: #648880;
+}
 
 /*
   ========================================
@@ -254,7 +263,16 @@ h1, h3, h4, h5, p {
   padding: 40px 0 22px 0;
   text-transform: uppercase;
 }
-
+.tagline {
+	margin: 66px 0 22px 0;
+	text-align: right;
+}
+.primary-nav {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+}
 /*
   ========================================
   Primary footer
@@ -272,13 +290,22 @@ h1, h3, h4, h5, p {
   font-weight: 400;
 }
 
-.primary-header a,
-.primary-footer a {
-	color: #fff;
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+	text-align: right;
 }
-.primary-header a:hover,
-.primary-hooter a:hover {
-	color: #648880;
+.nav li {
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: top;
+}
+.nav li:last-child {
+	margin-right: 0;
 }
 
 /*
@@ -303,43 +330,15 @@ h1, h3, h4, h5, p {
 .teaser a:hover h3 {
 	color: #a9b2b9;
 }
-/*
-  ========================================
-  Nav
-  ========================================
-*/
-
-.nav {
-	text-align: right;
-}
-.nav li {
-	display: inline-block;
-	margin: 0 10px;
-	vertical-align: top;
-}
-.nav li:last-child {
-	margin-right: 0;
-}
-
-/*
-  ========================================
-  Lead
-  ========================================
-*/
-
-.lead {
-	text-align: center;
-}
-.lead p {
-	font-size: 21px;
-	line-height: 33px;
-}
 
 /*
   ========================================
   Speakers
   ========================================
 */
+.speaker {
+	margin-bottom: 44px;
+}
 
 .speaker-info {
 	border: 1px solid #dfe2e5;
